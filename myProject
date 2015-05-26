@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <title> My page </title>
+    <img src="http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/large.png" width="200" height="250"> 
+<style>
+body 
+    {
+        background-color:lightgrey
+    }
+h1   
+    {
+        font-family:verdana;
+        font-size:300%;
+        color:blue
+        
+    }
+p    
+    {
+        font-family:courier;
+        font-size:300%;
+        color:green
+    }
+</style>
+</head>
+<body>
+
+<h1>This is my second website using CSS. </h1>
+<p>This is a paragraph.</p>
+
+</body>    
+</style>
+</head>
+</html>
