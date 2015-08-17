@@ -1,47 +1,91 @@
 <!DOCTYPE html>
-<html>  
+<html>
+<body>This is my first web page.<br>
 <head>
-    <title> My page </title>
-    <img src="http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/large.png" width="200" height="250" align="center"> 
+<title> My page </title>
+<img src="http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/large.png" width="200" height="250" ALIGN="CENTER"> 
     
 <style>
 body 
     {
         background-color: cadetblue;
+        body-align: center;
     }
     
 h5  {
-        family: fantasy;
-        font-size: 150%;
+        font-family: fantasy;
+        font-size: 120%;
+        text-align: center;
     }
     
+h6 {
+        font-family: fantasy;
+        font-size: 150%;
+        color: azure; 
+        text-align: center;
+   }
+th {
+       color:green;
+       text-align: left;
+       background-color: white;
+}
+
+address
+    {
+        color:blueviolet;
+        background-color: white;
+    }
+ td {
+        font-family: fantasy; 
+} 
 a:link    {color:#000000; background-color:transparent; text-decoration:none}
 a:visited {color:#000000; background-color:transparent; text-decoration:none}
 a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
 a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
-
 </style>
 </head>
-<h1 style="color:blue">
-Dejan Ahmetovic
+<h1 style="color:blue">Dejan Ahmetovic</h1>
 <p>
-<img src="dejan.jpeg" width="220" height="200">     
+<img src="dejan.jpeg" width="220" height="200" ALIGN="CENTER">     
 </p>
-</h1>
 </br>
 </h1>
-<body>
-    This is my first web page.
-</body>
 <h3 style="color:purple"> KSU Student wanting to learn html programming</h3>
 <p title ="About Student">
 <h4 style="font-family:apple chancery">    
-Currently Attending Kennesaw State University <a href="http://www.kennesaw.edu">KSU</a>
-</h4>
+Currently Attending Southern Polytehnic State University <a href="http://www.spsu.edu">SPSU</a>
+that will become <a href="http://www.kennesaw.edu">KSU</a>  in fall of 2015.</h4>
 </p>
-<address title="find me here:">
+<table border="2" style="width:100%">
+  <tr>
+    <th>Course Name</th>
+    <th>Taken</th> 
+    <th>Grade Received</th>
+  </tr>
+  <tr>
+    <td>Data Structures</td>
+    <td>Spring 2015</td> 
+    <td>B</td>
+  </tr>
+    <tr>
+    <td>Database</td>
+    <td>Spring 2015</td> 
+    <td>A</td>
+  </tr>
+    <tr>
+        <td>Physics 1211</td>
+        <td>Fall 2014</td>
+        <td>B</td>
+    </tr>
+</table>
+<address title="find me here:" ALIGN="CENTER">
     <h5>My Address:</h5>
 Find me Here:<br>
+Meadow Rock dr <br>
 Stone Mountain GA 30083 <br>
 </address>
+<h6>
+    Resume Coming up soon...
+</h6>
+</body>
 </html>
